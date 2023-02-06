@@ -15,8 +15,8 @@ jobs:
             command: |
               aws cloudformation deploy \
                 --template-file template.yml \
-                --stack-name myStack-016198 \
-                --region us-west-1
+                --stack-name galeStack \
+                --region us-west-2
 workflows:
   # Name the workflow
   myWorkflow:
